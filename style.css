@@ -1,0 +1,79 @@
+.icon-red {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.expand-input {
+    transition: width 0.3s; 
+}
+
+.expanded {
+    width: 450px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.icon-container {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.icon-grid {
+    display: flex;
+    gap: 20px;
+    transition: transform 1s ease-in-out;
+}
+
+.icon {
+    background-color: #fff;
+    padding: 20px;
+    width: 180px;
+    height: 180px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0px;
+    width: 100%;
+    color: red;
+}
+
+.footer a {
+    color:red;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline; 
+}
+.pics{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#cartItemCount {
+    background-color: #343a40;
+    align-items: center;
+    display: inline-block;
+    width: ;
+
+}
+span{
+    align-items: center;
+    display: inline-block;
+    font-size: 15px;
+}

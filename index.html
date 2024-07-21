@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Baba</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+    
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-2 gap-2">
+        <i class="bi bi-shop icon-red"></i>
+        <a class="navbar-brand" href="index.html">Ali Baba</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="index.html">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="x">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item d-flex"><i class="bi bi-house icon-red active"></i><a class="nav-link"
+                        href="index.html">Home</a>
+                </li>
+                <li class="nav-item d-flex"><i class="bi bi-info-circle-fill icon-red"></i><a class="nav-link"
+                        href="../project about/about.html">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../project laptops/laptops.html"><i
+                                    class="bi bi-laptop"></i>Laptops</a></li>
+                        <li><a class="dropdown-item" href="../project TVs/TVs.html"><i class="bi bi-tv"></i>TVs</a></li>
+                        <li><a class="dropdown-item" href="../wbe appilances/homeappilances.html"><i
+                                    class="bi bi-filter-circle-fill"></i>Home
+                                Appliances</a></li>
+                        <li><a class="dropdown-item" href="../mobiles/mobile.html"><i class="bi bi-phone"></i>Mobiles &
+                                Tablets</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item d-flex"><i class="bi bi-basket icon-red"></i><span id="cartItemCount"
+                        class="badge bg-dark"></span><a class="nav-link" href="../cart/Cart.html">Cart</a>
+                </li>
+                <li class="nav-item d-flex"><i class="bi bi-door-open icon-red"></i><a class="nav-link"
+                        href="../project sign in/signin.html">Log-in
+                        |
+                        Sign-up</a>
+                </li>
+                <li class="nav-item d-flex"><i class="bi bi-h-circle icon-red"></i><a class="nav-link"
+                        href="../Help/Help.html">Help</a>
+                </li>
+            </ul>
+            <form class="d-flex gap-2">
+                <i class="bi bi-search icon-red"></i>
+                <input class="form-control me-2 expand-input" type="search" placeholder="Search" aria-label="Search"
+                    id="searchInput">
+                <button class="btn btn-outline-danger" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="icon-container pics">
+        <div class="icon-grid">
+            <div class="icon"><a href="../mobiles/mobile.html"><img
+                        src="pics/Apple-iPhone-14-Pro-gold.jpg" alt="Icon 1">Apple-iPhone-14-Pro-gold</a>
+                
+            </div>
+            <div class="icon">
+                <a href="../project laptops/laptops.html"><img
+                        src="pics/o-BEST-PERFORMING-WINDOWS-LAPTOP-facebook.jpg" alt="Icon 2">Apple macbook</a>
+            </div>
+            <div class="icon">
+                <a href="../project TVs/TVs.html"><img src="pics/R.jpeg" alt="Icon 3">Samsung
+                    smart TV</a>
+            </div>
+            <div class="icon">
+                <a href="../mobiles/mobile.html"><img src="pics/Galaxy tab A9.png"
+                        alt="Icon 4">Samsung tab a9</a>
+            </div>
+            <div class="icon">
+                <a href="../wbe appilances/homeappilances.html"><img
+                        src="pics/b5ff04d61ac32cba26e35e54f632061b.jpeg" alt="Icon 5">lucky homes</a>
+            </div>
+            <div class="icon">
+                <a href="../wbe appilances/homeappilances.html"><img src="pics/41970292.webp"
+                        alt="Icon 6">heater</a>
+            </div>
+            <div class="icon">
+                <a href="../mobiles/mobile.html"><img src="pics/sam a14.png" alt="Icon 7">Samsung
+                    A14</a>
+            </div>
+        </div>
+    </div>
+    <div id="c1" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pics/disc/1.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item ">
+                <img src="pics/disc/2.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item ">
+                <img src="pics/disc/3.png" class="d-block w-100">
+            </div>
+        </div>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#c1" data-bs-slide-to="0" class="active" aria-label=""></button>
+            <button type="button" data-bs-target="#c1" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#c1" data-bs-slide-to="2"></button>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#c1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#c1" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">next</span>
+        </button>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-dark text-danger">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 Ali Baba. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/Alibaba.comGlobal/"><i
+                                    class="bi bi-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="https://x.com/AlibabaGroup/"><i
+                                    class="bi bi-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/company/alibaba-com"><i
+                                    class="bi bi-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/alibaba.com_official/"><i
+                                    class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+
+</html>
